@@ -13,13 +13,13 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <build>
-		<extensions>
+        <extensions>
             <extension>
                 <groupId>org.apache.maven.wagon</groupId>
                 <artifactId>wagon-ftp</artifactId>
                 <version>1.0-alpha-6</version>
             </extension>
-		</extensions>
+        </extensions>
     </build>
     <distributionManagement>
         <repository>
